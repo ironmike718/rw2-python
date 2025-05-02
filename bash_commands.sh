@@ -7,3 +7,6 @@ pwd
 # list directory contents
 ls
 
+# create new directories
+mkdir
+
