@@ -3,5 +3,9 @@
 # store data in a variable
 mesg="Hello World!"
 
-# print to the screen w/ echo
+# print variable to the screen w/ echo
 echo $mesg
+
+# print variable (2nd method)
+echo ${mesg}
+
