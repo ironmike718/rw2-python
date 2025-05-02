@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 # store data in a variable
 mesg="Hello World!"
 
@@ -7,5 +9,12 @@ mesg="Hello World!"
 echo $mesg
 
 # print variable (2nd method)
-echo ${mesg}
+# echo ${mesg}
 
+echo "Who do you want to say hello to?"
+
+read person
+
+echo Hello ${person}
+
+echo $1
